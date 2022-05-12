@@ -3,7 +3,7 @@ import telegram
 import time
 from bs4 import BeautifulSoup
 
-bot = telegram.Bot(token = '1426984672:AAGe3XoDWRfApd62Fd_POFuvT4iBNIRro-A')
+bot = telegram.Bot(token = '텔레그램 토큰')
 
 lastest_num = 0
 
