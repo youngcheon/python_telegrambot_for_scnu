@@ -15,7 +15,7 @@ while True :
     post_num = int(soup.find_all(class_ = 'BD_tm_none')[9].text)        
     if lastest_num != post_num:
         lastest_num = post_num          
-        bot.sendMessage(chat_id = '-430078681', text = f"{titles[1].text.strip()}\n\nhttps://www.scnu.ac.kr{titles[0].attrs['href']}")  
+        bot.sendMessage(chat_id = '유저아이디', text = f"{titles[1].text.strip()}\n\nhttps://www.scnu.ac.kr{titles[0].attrs['href']}")  
         
     time.sleep(10)
     
